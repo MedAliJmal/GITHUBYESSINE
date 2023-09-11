@@ -1,2 +1,17 @@
-This file is currently empty
-Version 1
+This file is currently contains the resume :
+1 - to create a folder (dossier) : we use MKDIR command (make directory)
+
+2 - to enter a certain folder you need to use CD command (change directory)
+
+3 - to create a file (fichier) we use touch command.
+
+4 - STEPS TO UPLOAD YOUR WORK FROM WORKING DIRECTORY () TO REMOTE REPOSITORY (Repository created in github) :
+     * Git init : Initialize an emty local git repository (dossier caché .git)
+     * Git add "file name" or .  => Select the files you want to upload to github => files will be added to staging area (virtual space)
+     * Git status => check the current status of the staging area.
+     * Git commit => confirms the selected files and closes the staging area.
+     * You can check your previous commits using git log ( historique )
+     * Specify what branch you are working on (multi tasking) (usually we'll work on main branch).
+     * Git Remote => Specify a remote repository to upload the work in.
+     * git rm to remove files
+Version 2
